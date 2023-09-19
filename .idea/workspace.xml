@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2992fd54-9485-423c-815d-a793880197f6" name="Changes" comment="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7fdd1b57-d4e6-434f-b473-20219e9f589e" />
+        <option name="url" value="https://github.com/wandbergdelima/screenMathPoo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -37,23 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/wandberg/Desktop/Projetos de Cursos/Alura/FilmesApi/screenmathPoo/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/wandberg/Desktop/Projetos de Cursos/Alura/FilmesApi/screenmathPoo/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +85,7 @@
       <workItem from="1694778195595" duration="6255000" />
       <workItem from="1695080982451" duration="594000" />
       <workItem from="1695157646109" duration="1826000" />
+      <workItem from="1695160152390" duration="3248000" />
     </task>
     <task id="LOCAL-00001" summary="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos).">
       <created>1695158424133</created>
@@ -73,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695158424133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos).">
+      <created>1695160198144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695160198144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
