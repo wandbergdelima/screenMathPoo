@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2992fd54-9485-423c-815d-a793880197f6" name="Changes" comment="- Como aplicar o conceito de polimorfismo no código, evitando métodos duplicados.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculos/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Episodio.java" afterDir="false" />
+    <list default="true" id="2992fd54-9485-423c-815d-a793880197f6" name="Changes" comment="- Que no Java uma classe pode herdar de somente uma única classe;&#10;- O conceito de interfaces no Java;&#10;- Que numa interface todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;&#10;- Que também é possível aplicar o polimorfismo com o uso de interfaces, similar ao que foi demonstrado com a utilização da herança em aulas anteriores.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/modelos/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/modelos/MinhasPreferidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/modelos/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/modelos/Podcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercicio/principal/PrincipalExercicio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrincipalExercicio">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="screenmathPoo" />
@@ -92,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrincipalExercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio.principal.PrincipalExercicio" />
+      <module name="screenmathPoo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalExercicio" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
@@ -111,7 +125,7 @@
       <workItem from="1695157646109" duration="1826000" />
       <workItem from="1695160152390" duration="7268000" />
       <workItem from="1695738444907" duration="5593000" />
-      <workItem from="1695866749142" duration="2682000" />
+      <workItem from="1695866749142" duration="6456000" />
     </task>
     <task id="LOCAL-00001" summary="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos).">
       <created>1695158424133</created>
@@ -150,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695905273127</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Que no Java uma classe pode herdar de somente uma única classe;&#10;- O conceito de interfaces no Java;&#10;- Que numa interface todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;&#10;- Que também é possível aplicar o polimorfismo com o uso de interfaces, similar ao que foi demonstrado com a utilização da herança em aulas anteriores.">
+      <option name="closed" value="true" />
+      <created>1695907174756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695907174756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +195,7 @@
     <MESSAGE value="- Encapsulamento: controlar o acesso aos atributos e métodos de uma classe;&#10;- O que são os modificadores de acesso public e private;&#10;- Métodos de leitura dos atributos, que são os métodos getters;&#10;- Métodos de modificação dos atributos, que são os métodos setters;&#10;- O uso da palavra chave import, para importar classes de outros pacotes;&#10;- O uso da palavra chave this;&#10;- Boas práticas de dividir o código em pacotes, bem como a convenção usada: domínio da empresa ao contrário, onde aqui vamos colocar por exemplo br.com.alura.screenmatch." />
     <MESSAGE value="- O problema de ter códigos duplicados em várias classes, utilizando a herança como solução;&#10;- A palavra-chave extends, utilizada para indicar que uma classe herda de outra;&#10;- Como sobrescrever um método sendo herdado, com o uso opcional da anotação @Override;&#10;- Como aplicar o conceito de polimorfismo no código, evitando métodos duplicados." />
     <MESSAGE value="- Como aplicar o conceito de polimorfismo no código, evitando métodos duplicados." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Como aplicar o conceito de polimorfismo no código, evitando métodos duplicados." />
+    <MESSAGE value="- Que no Java uma classe pode herdar de somente uma única classe;&#10;- O conceito de interfaces no Java;&#10;- Que numa interface todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;&#10;- Que também é possível aplicar o polimorfismo com o uso de interfaces, similar ao que foi demonstrado com a utilização da herança em aulas anteriores." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Que no Java uma classe pode herdar de somente uma única classe;&#10;- O conceito de interfaces no Java;&#10;- Que numa interface todos os métodos são públicos, não sendo então necessário utilizar a palavra reservada public na declaração deles;&#10;- Que também é possível aplicar o polimorfismo com o uso de interfaces, similar ao que foi demonstrado com a utilização da herança em aulas anteriores." />
   </component>
 </project>
