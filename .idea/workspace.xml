@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2992fd54-9485-423c-815d-a793880197f6" name="Changes" comment="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos).">
+    <list default="true" id="2992fd54-9485-423c-815d-a793880197f6" name="Changes" comment="- Encapsulamento: controlar o acesso aos atributos e métodos de uma classe;&#10;- O que são os modificadores de acesso public e private;&#10;- Métodos de leitura dos atributos, que são os métodos getters;&#10;- Métodos de modificação dos atributos, que são os métodos setters;&#10;- O uso da palavra chave import, para importar classes de outros pacotes;&#10;- O uso da palavra chave this;&#10;- Boas práticas de dividir o código em pacotes, bem como a convenção usada: domínio da empresa ao contrário, onde aqui vamos colocar por exemplo br.com.alura.screenmatch.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +27,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -66,6 +69,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/wandberg/Desktop/Projetos de Cursos/Alura/FilmesApi/screenmathPoo/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -73,6 +77,26 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="screenmathPoo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +109,9 @@
       <workItem from="1694778195595" duration="6255000" />
       <workItem from="1695080982451" duration="594000" />
       <workItem from="1695157646109" duration="1826000" />
-      <workItem from="1695160152390" duration="3248000" />
+      <workItem from="1695160152390" duration="7268000" />
+      <workItem from="1695738444907" duration="5593000" />
+      <workItem from="1695866749142" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos).">
       <created>1695158424133</created>
@@ -101,15 +127,34 @@
       <option name="project" value="LOCAL" />
       <updated>1695160198144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Encapsulamento: controlar o acesso aos atributos e métodos de uma classe;&#10;- O que são os modificadores de acesso public e private;&#10;- Métodos de leitura dos atributos, que são os métodos getters;&#10;- Métodos de modificação dos atributos, que são os métodos setters;&#10;- O uso da palavra chave import, para importar classes de outros pacotes;&#10;- O uso da palavra chave this;&#10;- Boas práticas de dividir o código em pacotes, bem como a convenção usada: domínio da empresa ao contrário, onde aqui vamos colocar por exemplo br.com.alura.screenmatch.">
+      <created>1695165205597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695165205597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos)." />
-    <option name="LAST_COMMIT_MESSAGE" value="- O que é uma classe, sua estrutura, como criar e por que isso é um conceito fundamental na orientação a objetos;&#10;- O que são atributos: as &quot;características&quot; de um objeto, e a definir e visualizar esses valores;&#10;- A instanciar objetos;&#10;- Sobre os métodos (ou comportamentos) de um objeto;&#10;- A pensar nas entidades do mundo real em forma de objetos, que possuem características (atributos) e comportamentos ou ações (métodos)." />
+    <MESSAGE value="- Encapsulamento: controlar o acesso aos atributos e métodos de uma classe;&#10;- O que são os modificadores de acesso public e private;&#10;- Métodos de leitura dos atributos, que são os métodos getters;&#10;- Métodos de modificação dos atributos, que são os métodos setters;&#10;- O uso da palavra chave import, para importar classes de outros pacotes;&#10;- O uso da palavra chave this;&#10;- Boas práticas de dividir o código em pacotes, bem como a convenção usada: domínio da empresa ao contrário, onde aqui vamos colocar por exemplo br.com.alura.screenmatch." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Encapsulamento: controlar o acesso aos atributos e métodos de uma classe;&#10;- O que são os modificadores de acesso public e private;&#10;- Métodos de leitura dos atributos, que são os métodos getters;&#10;- Métodos de modificação dos atributos, que são os métodos setters;&#10;- O uso da palavra chave import, para importar classes de outros pacotes;&#10;- O uso da palavra chave this;&#10;- Boas práticas de dividir o código em pacotes, bem como a convenção usada: domínio da empresa ao contrário, onde aqui vamos colocar por exemplo br.com.alura.screenmatch." />
   </component>
 </project>
