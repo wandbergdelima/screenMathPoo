@@ -1,4 +1,6 @@
 import calculos.CalculadoraDeTempo;
+import calculos.FiltroRecomendacao;
+import modelo.Episodio;
 import modelo.Filme;
 import modelo.Serie;
 
@@ -38,5 +40,17 @@ public class Principal {
         calculadora.incluir(outroFilme);
         calculadora.incluir(lost);
         System.out.println("Tempo total para Maratonar tudo: " + calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+
+        filtro.filtra(episodio);
+
+
     }
 }
